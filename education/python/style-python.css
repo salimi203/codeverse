@@ -1,0 +1,140 @@
+body {
+    direction: rtl;
+    font-family: Tanha, sans-serif;
+    line-height: 1.8;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #31a9cc;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    background-color: #feac00;
+    padding: 3px 6px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.python-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.python-image img {
+    width: 250px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: #31a9cc;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+ul {
+    margin: 10px 20px;
+}
+
+.code-box {
+    background-color: #272822;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: monospace;
+}
+
+.why-python {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.card {
+    background-color: #f2f2f2;
+    width: 31%;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card i {
+    font-size: 2rem;
+    color: #31a9cc;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-more {
+    display: inline-block;
+    background-color: #31a9cc;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+.btn-more:hover {
+    background-color: #feac00;
+}
+
+@media screen and (max-width: 768px) {
+    .why-python {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    table, table tr, table td, table th {
+        display: block;
+        width: 100%;
+    }
+    table th {
+        text-align: right;
+    }
+}

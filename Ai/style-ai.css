@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap');
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background: linear-gradient(to right, #3a0ca3, #7209b7);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    direction: rtl;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-section img {
+    max-width: 90%;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+.intro, .table-section, .list-section, .tools-section {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #ffdaff;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+table th {
+    background: #7209b7;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.15);
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.tool {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.back-btn {
+    background: #ff6ec7;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #ff1493;
+}
